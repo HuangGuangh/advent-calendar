@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.platform {
+  background-color: orange;
+  width: 80%;
+  max-width: 1000px;
+  height: 80vh;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+  overflow-y: auto;
+}
+
+.calendar {
+  grid-gap: 10px;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  display: grid;
+}
+
+.square {
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 100px;
+  height: 100%;
+  max-height: 100px;
+  font-size: 20px;
+  transition: background-color .3s;
+  display: flex;
+}
+
+.square:hover {
+  background-color: #dcdcdc;
+}
+
+.restore-button {
+  color: #fff;
+  cursor: pointer;
+  z-index: 10;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  transition: background-color .3s;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.restore-button:hover {
+  background-color: #45a049;
+}
+/*# sourceMappingURL=index.75a90472.css.map */
